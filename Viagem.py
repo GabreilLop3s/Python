@@ -1,6 +1,6 @@
 import time #BIBLIOTECA IMORTADA PARA O TEMPORIZADOR NA LINHA (14).
 
-while True: #Estrutura de repetição, executa oq diz na linha (18).
+while True: #Estrutura de repetição, para a relização do que diz na linha (18).
 
     distancia = float(input('Olá! seja bem-vindo a companhia de viagens IMPACTA, por favor digite a distancia (EM KM) que vai percorrer até o local de chegada: '))
     print(' QUE ÓTIMA NOTÍCIA! você está prestes e começar uma viagem de {}Km'.format(distancia))
