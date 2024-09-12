@@ -1,6 +1,6 @@
-import time #BIBLIOTECA IMORTADA PARA O TEMPORIZADOR NA LINHA (10)
+import time #BIBLIOTECA IMORTADA PARA O TEMPORIZADOR NA LINHA (14).
 
-while True: #Estrutura de repetição, executa oq diz na linha (13)
+while True: #Estrutura de repetição, executa oq diz na linha (18).
 
     distancia = float(input('Olá! seja bem-vindo a companhia de viagens IMPACTA, por favor digite a distancia (EM KM) que vai percorrer até o local de chegada: '))
     print(' QUE ÓTIMA NOTÍCIA! você está prestes e começar uma viagem de {}Km'.format(distancia))
@@ -11,8 +11,8 @@ while True: #Estrutura de repetição, executa oq diz na linha (13)
         preco = distancia * 0.45
 
     print('Analisando percurso...')
-    time.sleep(3)
-    
+    time.sleep(3) #dentro dos parenteses esta o tempo que o computador deve esperar para executar a proxima tarefa, 3 segundos.
+
     print("Sua viagem de {}km, teve o valor calculado em ${:.2f}. Para mais informações acesse nossa central de atendimento on-line. Tenha uma viagem IMPACTANTE!".format(distancia,preco))
 
     escolha = input(str('Deseja iniciar uma nova vigem? (S para sim e N para não)')).strip().upper()
